@@ -3,7 +3,6 @@ description: Something is wrong with the docs.microsoft.com site.
 labels: ["bug"]
 
 body:
-
   - type: textarea
     id: description
     attributes:
