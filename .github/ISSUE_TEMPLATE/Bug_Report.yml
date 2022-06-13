@@ -48,10 +48,10 @@ body:
       options:
         - Desktop
         - Smartphone
- 
+
   - type: input
-   id: operating-system
-   attributes:
-    label: OS
-    description: What operating system did this bug occur on?
-    placeholder: Windows 11, iOS, android
+    id: operating-system
+    attributes:
+      label: OS
+      description: What operating system did this bug occur on?
+      placeholder: Windows 11, iOS, android
