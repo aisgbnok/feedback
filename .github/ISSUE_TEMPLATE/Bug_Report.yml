@@ -3,35 +3,59 @@ description: Something is wrong with the docs.microsoft.com site.
 labels: ["bug"]
 
 body:
-  - type: markdown
-    attributes:
-      value: Thanks!
 
   - type: textarea
     id: description
     attributes:
       label: Describe the bug
       description: A clear and concise description of what the bug is.
+    validations:
+      required: true
 
   - type: textarea
     id: reproduce
     attributes:
-      label: Steps to Reproduce
+      label: To Reproduce
       description: Steps to reproduce the behavior.
-      value: |
+      placeholder: |
         1. Go to '...'
         2. Click on '....'
         3. Scroll down to '....'
         4. See error
+    validations:
+      required: true
 
   - type: textarea
     id: expected
     attributes:
       label: Expected behavior
       description: A clear and concise description of what you expected to happen.
+    validations:
+      required: true
 
   - type: textarea
     id: screenshots
     attributes:
       label: Screenshots
       description: If applicable, add screenshots to help explain your problem.
+    validations:
+      required: false
+      
+  - type: dropdown
+    id: form-factor
+    attributes:
+      label: Form Factor
+      description: What type of device did this bug occur on?
+      options:
+        - Desktop
+        - Smartphone
+ 
+ - type: input
+   id: operating-system
+   attributes:
+    label: OS
+    description: What operating system did this bug occur on?
+    placeholder: Windows 11, iOS, android
+    
+      
+  
