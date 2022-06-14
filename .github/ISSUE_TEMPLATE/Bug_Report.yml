@@ -1,13 +1,13 @@
 name: "Bug Report 🐛"
-description: Something is wrong with the docs.microsoft.com site.
+description: Something is wrong with the [docs.microsoft.com](https://docs.microsoft.com/) site.
 labels: ["bug"]
 
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to report a bug for the Microsoft Docs site. Before you fill out and submit this issue:
-        - Please make sure to [search for existing issues](https://github.com/MicrosoftDocs/feedback/issues) and [check the Microsoft Docs Q&A](https://docs.microsoft.com/answers/products/) before filing a new one!
+        Before you fill out and submit this issue:
+        - Please make sure to [search for existing issues](https://github.com/MicrosoftDocs/feedback/issues) and [check the Microsoft Docs Q&A](https://docs.microsoft.com/answers/products/)!
         - If this is a product issue, please contact the particular product's support instead of opening an issue here. For a list of support websites, see [Support for Microsoft products and apps](https://support.microsoft.com/all-products).
 
   - type: textarea
@@ -55,10 +55,32 @@ body:
       options:
         - Desktop
         - Smartphone
+    validations:
+      required: true
 
   - type: input
     id: operating-system
     attributes:
       label: OS
       description: What operating system did this bug occur on?
-      placeholder: Windows 11, iOS, android
+      placeholder: e.g. Windows 11, iOS, android
+    validations:
+      required: true
+      
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      description: What browser did this bug occur on?
+      placeholder: e.g. Edge, Chrome, Safari
+    validations:
+      required: true
+  
+  - type: input
+    id: browser-version
+    attributes:
+     label: Browser Version
+     description: What is the browser version?
+     placeholder: e.g. 102.0.1245.41
+   validations:
+    required: true
