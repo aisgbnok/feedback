@@ -56,11 +56,13 @@ body:
       label: Device Information
       description: Please complete the following information.
       value: |
-        - Form Factor: [Smartphone or Desktop]
-        - Device: [e.g. iPhone 14, Surface Duo 3]
-        - OS: [e.g. Windows 11, iOS 16, Android 13]
-        - Browser: [e.g. Edge, Chrome, Safari]
-        - Version: [e.g. 102.0.1245.41]
+        | Question | Answer |
+        | --- | --- |
+        | Form Factor | [Smartphone or Desktop] |
+        | Device | [e.g. iPhone 14, Surface Duo 3] |
+        | OS | [e.g. Windows 11, iOS 16, Android 13] |
+        | Browser | [e.g. Edge, Chrome, Safari] |
+        | Version | [e.g. 102.0.1245.41] |
     validations:
       required: true
 
