@@ -5,7 +5,7 @@ labels: ["bug"]
 body:
   - type: markdown
     attributes:
-      value: "### Before you fill out and submit this issue"
+      value: "## Before you fill out and submit this issue"
 
   - type: markdown
     attributes:
