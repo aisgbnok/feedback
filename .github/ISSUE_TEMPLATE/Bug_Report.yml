@@ -53,7 +53,7 @@ body:
   - type: dropdown
     id: form-factor
     attributes:
-      label: Form Factor
+      label: "### Form Factor"
       description: What type of device did this bug occur on?
       options:
       - Desktop
@@ -64,7 +64,7 @@ body:
   - type: input
     id: operating-system
     attributes:
-      label: OS
+      label: "#### OS"
       description: What operating system did this bug occur on?
       placeholder: e.g. Windows 11, iOS, android
     validations:
@@ -73,7 +73,7 @@ body:
   - type: input
     id: browser
     attributes:
-      label: Browser
+      label: "#### Browser"
       description: What browser did this bug occur on?
       placeholder: e.g. Edge, Chrome, Safari
     validations:
@@ -82,7 +82,7 @@ body:
   - type: input
     id: browser-version
     attributes:
-      label: Browser Version
+      label: "#### Browser Version"
       description: What is the browser version?
       placeholder: e.g. 102.0.1245.41
     validations:
