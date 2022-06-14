@@ -1,5 +1,5 @@
 name: "Bug Report 🐛"
-description: Something is wrong with the [docs.microsoft.com](https://docs.microsoft.com/) site.
+description: Something is wrong with the docs.microsoft.com site.
 labels: ["bug"]
 
 body:
