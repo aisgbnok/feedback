@@ -24,10 +24,10 @@ body:
       label: To Reproduce
       description: Steps to reproduce the behavior.
       placeholder: |
-        1. Go to '...'
-        2. Click on '....'
-        3. Scroll down to '....'
-        4. See error
+      1. Go to '...'
+      2. Click on '....'
+      3. Scroll down to '....'
+      4. See error
     validations:
       required: true
 
@@ -46,15 +46,15 @@ body:
       description: If applicable, add screenshots to help explain your problem.
     validations:
       required: false
-      
+
   - type: dropdown
     id: form-factor
     attributes:
       label: Form Factor
       description: What type of device did this bug occur on?
       options:
-        - Desktop
-        - Smartphone
+      - Desktop
+      - Smartphone
     validations:
       required: true
 
@@ -66,7 +66,7 @@ body:
       placeholder: e.g. Windows 11, iOS, android
     validations:
       required: true
-      
+
   - type: input
     id: browser
     attributes:
@@ -75,12 +75,12 @@ body:
       placeholder: e.g. Edge, Chrome, Safari
     validations:
       required: true
-  
+
   - type: input
     id: browser-version
     attributes:
-     label: Browser Version
-     description: What is the browser version?
-     placeholder: e.g. 102.0.1245.41
-   validations:
-    required: true
+      label: Browser Version
+      description: What is the browser version?
+      placeholder: e.g. 102.0.1245.41
+    validations:
+      required: true
