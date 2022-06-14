@@ -50,41 +50,17 @@ body:
     validations:
       required: false
 
-  - type: dropdown
-    id: form-factor
+  - type: textarea
+    id: device-information
     attributes:
-      label: "### Form Factor"
-      description: What type of device did this bug occur on?
-      options:
-      - Desktop
-      - Smartphone
-    validations:
-      required: true
-
-  - type: input
-    id: operating-system
-    attributes:
-      label: "#### OS"
-      description: What operating system did this bug occur on?
-      placeholder: e.g. Windows 11, iOS, android
-    validations:
-      required: true
-
-  - type: input
-    id: browser
-    attributes:
-      label: "#### Browser"
-      description: What browser did this bug occur on?
-      placeholder: e.g. Edge, Chrome, Safari
-    validations:
-      required: true
-
-  - type: input
-    id: browser-version
-    attributes:
-      label: "#### Browser Version"
-      description: What is the browser version?
-      placeholder: e.g. 102.0.1245.41
+      label: Device Information
+      description: Please complete the following information.
+      value: |
+        - Form Factor: [Smartphone or Desktop]
+        - Device: [e.g. iPhone 14, Surface Duo 3]
+        - OS: [e.g. Windows 11, iOS 16, Android 13]
+        - Browser: [e.g. Edge, Chrome, Safari]
+        - Version: [e.g. 102.0.1245.41]
     validations:
       required: true
 
