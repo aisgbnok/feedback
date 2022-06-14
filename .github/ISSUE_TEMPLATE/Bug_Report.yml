@@ -5,10 +5,13 @@ labels: ["bug"]
 body:
   - type: markdown
     attributes:
+      value: "###Before you fill out and submit this issue"
+
+  - type: markdown
+    attributes:
       value: |
-        "###Before you fill out and submit this issue:
         - Please make sure to [search for existing issues](https://github.com/MicrosoftDocs/feedback/issues) and [check the Microsoft Docs Q&A](https://docs.microsoft.com/answers/products/)!
-        - If this is a product issue, please contact the particular product's support instead of opening an issue here. For a list of support websites, see [Support for Microsoft products and apps](https://support.microsoft.com/all-products)."
+        - If this is a product issue, please contact the particular product's support instead of opening an issue here. For a list of support websites, see [Support for Microsoft products and apps](https://support.microsoft.com/all-products).
 
   - type: textarea
     id: description
