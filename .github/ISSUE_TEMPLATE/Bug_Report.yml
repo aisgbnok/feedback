@@ -4,10 +4,11 @@ labels: ["bug"]
 
 body:
   - type: markdown
-    value: |
-      Thanks for opening a bug report for the Microsoft Docs site. Please fill out the required information below.
+    attributes:
+      value: |
+        Thanks for opening a bug report for the Microsoft Docs site. Please fill out the required information below.
 
-      If your issue is related to a particular product, contact the product's support instead of opening an issue here. For a list of support websites, see [Support for Microsoft products and apps](https://support.microsoft.com/all-products).
+        If your issue is related to a particular product, contact the product's support instead of opening an issue here. For a list of support websites, see [Support for Microsoft products and apps](https://support.microsoft.com/all-products).
 
   - type: textarea
     id: description
